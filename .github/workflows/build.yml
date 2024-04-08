@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  DOCKERHUB_SLUG: distribution/distribution
+  DOCKERHUB_SLUG: ${{ github.repository }}
   GHCR_SLUG: ghcr.io/${{ github.repository }}
 
 permissions:
